@@ -1,7 +1,7 @@
 {
   "name": "Lambda",
   "version": "1.0.0",
-  "description": "",
+  "description": "Serverless Lambda connections to Contentful webhooks",
   "main": "handler.js",
   "scripts": {
     "deploy": "serverless deploy function --function hello"
