@@ -1,0 +1,11 @@
+{
+  "name": "Lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "deploy": "serverless deploy function --function hello"
+  },
+  "author": "",
+  "license": "ISC"
+}

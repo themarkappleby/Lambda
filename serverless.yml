@@ -1,0 +1,20 @@
+service: aws-nodejs
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: test
+          method: any
+
+resources:
+  Resources:
+    foo:
+      Type: AWS::S3::Bucket
+      Properties:
+        BucketName: twg-cfc2
